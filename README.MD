@@ -5,7 +5,7 @@
 
 
 ## Deployed App
-* Click [Here]() to test the app in action!
+* Click [Here](https://tech-blog-mustafa.herokuapp.com/) to test the app in action!
 
 ## GitHub Repo
 * Click [Here](https://github.com/KappaMustafa/tech_blog) to visit the repo for this app
