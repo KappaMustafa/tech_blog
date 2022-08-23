@@ -1,0 +1,16 @@
+{{!-- {{#if user}} --}}
+<div class="posts">
+{{#each posts}}
+<div class="card">
+    <span class="card-title">
+        <h2> {{title}}</h2>
+        <div>{{User.username}} Posted THIS!</div>
+    </span>
+    <div class="card-text">
+        {{body}}
+    </div>
+</div>
+{{/each}}
+<div><button href="#">Post Anything!</button></div>
+</div>
+{{!-- {{/if}} --}}

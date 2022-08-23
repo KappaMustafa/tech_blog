@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 4%;
+  background: lightcoral;
+}
+
+header * {
+  color: #fff;
+  font-size: larger;
+}
+.postsbtn{
+  background-color: lightcoral;
+  padding: 4px;
+  font-weight: bold;
+}
+.postsbtn:hover{
+  background-color: lightgreen;
+}
+header .logo {
+  text-decoration:underline
+}
+
+header nav span.email {
+  margin-right: 15px;
+}
+
+main {
+  padding: 35px 4%;
+}
+
+.errors {
+  margin-bottom: 15px;
+}
+
+.error {
+  text-align: center;
+  margin-bottom: 3px;
+  color: red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 0 auto;
+}
+
+form * {
+  padding: 7px 10px;
+  margin-bottom: 7px;
+}
+
+form h3 {
+  text-align: center;
+}
